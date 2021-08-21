@@ -1,0 +1,114 @@
+.app{
+    background-image: linear-gradient(to bottom, rgb(138, 255, 196),rgba(153, 238, 210));
+    background-size: cover;
+    background-position: bottom;
+    transition: 2s ease-out;
+    border-radius: 3em;
+    margin:2em;
+  } 
+  
+  .app-warm{
+    background-image: url('../Assets/warm.jpg');
+    background-size: cover;
+    border-radius: 3em;
+    margin:2em;
+  }
+  
+  .app-cold{
+    background-image: linear-gradient(to bottom, rgb(77, 234, 255),rgb(176, 246, 255));
+    background-size: cover;
+    border-radius: 3em;
+    margin:2em;
+  } 
+  
+  main{
+    min-height: 100vh;
+    border-radius: 2em;
+    padding: 25px;
+  }
+  
+  .search-box{
+  width: 100%;
+  margin: 0 0 75px;
+  }
+  
+  .search-box .search-bar{
+  display:block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background:none;
+  border:none;
+  outline:none;
+  
+  background-color: rgba(255,255,255,0.4);
+  border-radius:30px;
+  margin-top: -5px;
+  box-shadow: 0px 4px rgba(0,0,0,0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+  }
+  
+  .search-box .search-bar:focus{
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .location-box .location{
+    color:#ffff;
+    font-size:32px;
+    font-weight:500;
+    text-align:center;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+  }
+  
+  .location-box .date{
+    color:#ffff;
+    font-size:20px;
+    font-weight:500;
+    font-style: italic;
+    text-align:center;
+    text-shadow: 1px 2px rgba(50,50,70,0.5);
+  }
+  
+  .weather-box{
+    text-align: center;
+  }
+  
+  .weather-box .temp{
+    position: relative;
+    display: inline-block;
+    margin:30px auto;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    padding: 15px 25px;
+    color: #ffff;
+    font-size:102px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(50,50,70,0.5);
+    text-align:center;
+    box-shadow:3px 6px rgba(0,0,0,0.2);
+  }
+  
+  .weather-box .weather{
+    color: #ffff;
+    font-size:48px;
+    font-weight: 700;
+    text-shadow:3px 6px rgba(50,50,70,0.2);
+  }
+  
+  .feelslike{
+    font-weight: 500;
+    font-size:30px;
+    text-shadow:3px 4px rgba(0,0,0,0.2);
+    color: #ffff;
+    text-align:center;
+    padding: 20px;
+  }
+  
+  .fetching-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
